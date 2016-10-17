@@ -21643,6 +21643,23 @@
 				<group xml:lang="no">Visningsprogram</group>
 			</property>
 
+			<property resid="app.viewer.preloader.max" desc="">
+				<name xml:lang="en">How many files to preload in background (0 = Auto)</name>
+				<name xml:lang="de">Anzahl der im Hintergrund vorausgeladenenen Dateien (0 = Automatisch)</name>
+
+				<desc xml:lang="en">By default, this option is 0 and IMatch determines automatically, how many files to preload in the background for a smooth viewing experience.\r\n\r\nThis option can be helpful when your graphic card causes problems with the automatic preloading. If you experience problems, 'black frames' etc. try to reduce the number of preloaded files (e.g., to 2 or 3) until the problem goes away.</desc>
+				<desc xml:lang="de">Standardmäßig steht diese Option auf 0 und IMatch ermittelt automatisch, wie viele Bilder im Hintergrund vorausgeladen werden müssen, um eine bestmögliches Ansichtserlebnis zu ermöglichen.\r\n\r\nDas Ändern dieser Option kann sehr hilfreich sein, wenn Ihre Grafikkarte Probleme mit dem automatischen Vorausladen von Bildern macht (Bilder werden nicht geladen oder bleiben schwarz). Reduzieren Sie in diesem Fall die Anzahl der im Voraus geladenen Bilder (zum Beispiel auf 2 oder 3), bis das Problem nicht mehr auftritt.</desc>
+
+				<group xml:lang="en">Viewer</group>
+				<group xml:lang="de">Viewer</group>
+				<group xml:lang="fi">Katseluikkuna</group>
+				<group xml:lang="it">Visualizzatore</group>
+				<group xml:lang="hr">Preglednik</group>
+				<group xml:lang="pt">Visualizador</group>
+				<group xml:lang="nl">Viewer</group>
+				<group xml:lang="no">Visningsprogram</group>
+			</property>
+			
 			<property resid="app.viewer.face.fontsize" desc="">
 				<name xml:lang="en">Face Annotations Font Size</name>
 				<name xml:lang="de">Gesichtsanmerkungen Schriftgröße</name>

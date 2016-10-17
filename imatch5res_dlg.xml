@@ -7986,7 +7986,7 @@
                 <c xml:lang="en" helptext="Invert the result of the filter">Invert</c>
                 <c xml:lang="de" helptext="Das Filterergebnis umkehren">Umkehren</c>
 				<c xml:lang="fi" helptext="Käännä suodattimen tulos päinvastaiseksi">Käännä päinvastaiseksi</c>
-                <c xml:lang="nl" helptext="Het filterresultaat omkeren">Invertern</c>
+                <c xml:lang="nl" helptext="Het filterresultaat omkeren">Inverteren</c>
 				<c xml:lang="pt" helptext="Inverter o resultado do filtro">Inverter</c>
 				<c xml:lang="no" helptext="Omvend resultatet av filteret">Omvend</c>
                 <c xml:lang="it" helptext="Inverti il risultato del filtro">Inverti</c>
@@ -8264,6 +8264,17 @@
 				<c xml:lang="no" helptext="Resetter alle viste egenskaper tilbake til standardverdier">&amp;Standardverdier</c>
 				<c xml:lang="it" helptext="Azzera tutti le proprietà mostrate qui ai loro valori di default">&amp;Default</c>
 			</ctrl>
+
+			<ctrl text="#l_find">
+				<c xml:lang="en" helptext="">&amp;Search:</c>
+				<c xml:lang="de" helptext="">&amp;Suchen:</c>
+			</ctrl>
+
+			<ctrl text="#l_next">
+				<c xml:lang="en" helptext="">&amp;Next</c>
+				<c xml:lang="de" helptext="">&amp;Weiter</c>
+			</ctrl>
+
 		</dialog>
 
 		<!-- Database -->
