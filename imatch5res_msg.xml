@@ -2650,6 +2650,25 @@
                 </m>
             </msg>
 
+			<msg resid="PTR_MSG_ERR_LOCKEDDB_IMWS" typeid="[[TD_ERROR_ICON]]" enablemarkup="true">
+				<m xml:lang="en">
+					<cap>Database is locked or write-protected.</cap>
+					<cont>
+						<![CDATA[<TextBlock TextWrapping="Wrap">The database is locked and cannot be opened. Please close other applications which may have the database open and then retry.<LineBreak/><LineBreak/>IMatch has detected that <Bold>IMatch WebServices™</Bold> are running on this computer. Probably the database is currently in use by IMatch WebSerives.<LineBreak/><LineBreak/>Another reason for this error are insufficient file system privleges. The user working with IMatch must have 'read/write/modify' privileges for the folder containing the database. Press F1 for more info.</TextBlock>]]>
+					</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Datenbank ist gesperrt oder nicht beschreibbar.</cap>
+					<cont>
+						<![CDATA[<TextBlock TextWrapping="Wrap">Die Datenbank ist gesperrt und kann nicht geöffnet werden. Bitte schließen Sie andere Anwendungen, die die Datenbank geöffnet haben und versuchen Sie es dann erneut.
+					<LineBreak/><LineBreak/>IMatch hat erkannt, dass <Bold>IMatch WebSerives™</Bold> auf diesem Computer ausgeführt werden. Möglicherweise wird die Datenbank gerade von IMatch WebServices verwendet.
+					<LineBreak/><LineBreak/>Ein anderer Grund für diesen Fehler sind nicht ausreichende Berechtigungen. Der IMatch-Anwender benötigt 'Lesen/Schreiben/Ändern'-Berechtigungen für das Datenbankverzeichnis. Drücken Sie F1 für mehr Informationen.</TextBlock>]]>
+				</cont>
+					<inf></inf>
+				</m>
+			</msg>
+
+
 			<msg resid="PTR_MSG_ERR_INVALIDVERSION" typeid="[[TD_ERROR_ICON]]">
 				<m xml:lang="en">
 					<cap>Invalid database version.</cap>

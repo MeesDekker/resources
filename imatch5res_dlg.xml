@@ -4644,7 +4644,7 @@
 			<caption xml:lang="no">Tapsfri rotering</caption>
             <caption xml:lang="it">Rotazione senza perdite</caption>
             <ctrl text="#l_info">
-                <c xml:lang="en" helptext=""><![CDATA[This command can be used to rotate JPEG files in a lossless fashion.\r\nUSE THIS ONLY if you work with very olf software which cannot handle the EXIF orientation tag. It is RECOMMENDED to use the EXIF orientation command instead.]]></c>
+                <c xml:lang="en" helptext=""><![CDATA[This command can be used to rotate JPEG files in a lossless fashion.\r\nUSE THIS ONLY if you work with very old software which cannot handle the EXIF orientation tag. It is RECOMMENDED to use the EXIF orientation command instead.]]></c>
                 <c xml:lang="de" helptext=""><![CDATA[Dieser Befehl ermöglicht die Korrektur der Ausrichtung von JPEG-Dateien ohne erneute Komprimierung. Sie sollten es NUR VERWENDEN, wenn Sie mit sehr alter Software arbeiten, die das EXIF-Ausrichtgunsfeld nicht auswerten kann. Wie empfehlen statt dessen die Funktion zum Ändern des EXIF-Ausrichtungsfeldes zu verwenden.]]></c>
                 <c xml:lang="nl" helptext=""><![CDATA[Met deze opdracht kunt u de oriëntatie van JPEG-bestanden aanpasssen, zonder kwaliteitsverlies veroorzaakt door hercompressie.]]></c>
 				<c xml:lang="pt" helptext=""><![CDATA[Este comando permite-lhe corrigir a orientação de ficheiros JPEG sem perdas de qualidade devidas a re-compressão.]]></c>
