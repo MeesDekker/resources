@@ -2654,7 +2654,7 @@
 				<m xml:lang="en">
 					<cap>Database is locked or write-protected.</cap>
 					<cont>
-						<![CDATA[<TextBlock TextWrapping="Wrap">The database is locked and cannot be opened. Please close other applications which may have the database open and then retry.<LineBreak/><LineBreak/>IMatch has detected that <Bold>IMatch WebServices™</Bold> are running on this computer. Probably the database is currently in use by IMatch WebSerives.<LineBreak/><LineBreak/>Another reason for this error are insufficient file system privleges. The user working with IMatch must have 'read/write/modify' privileges for the folder containing the database. Press F1 for more info.</TextBlock>]]>
+						<![CDATA[<TextBlock TextWrapping="Wrap" >The database is locked and cannot be opened. Please close other applications which may have the database open and then retry.<LineBreak/><LineBreak/>IMatch has detected that <Bold>IMatch WebServices™</Bold> are running on this computer. Probably the database is currently in use by IMatch WebSerives.<LineBreak/><LineBreak/>Another reason for this error are insufficient file system privleges. The user working with IMatch must have 'read/write/modify' privileges for the folder containing the database. Press F1 for more info.</TextBlock>]]>
 					</cont>
 				</m>
 				<m xml:lang="de">

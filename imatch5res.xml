@@ -410,6 +410,7 @@
 		<bitmap resid="PTR_BM_FOLDERS_TREE_32X32" itemwidth="32">
 			<bm xml:lang="en">bitmaps\dbtree_icons_32x32.png</bm>
 		</bitmap>
+		
 		<bitmap resid="PTR_BM_FOLDERS_TREE_16X16" itemwidth="16">
 			<bm xml:lang="en">bitmaps\dbtree_icons_16x16.png</bm>
 		</bitmap>
