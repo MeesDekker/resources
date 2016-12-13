@@ -2660,9 +2660,9 @@
 				<m xml:lang="de">
 					<cap>Datenbank ist gesperrt oder nicht beschreibbar.</cap>
 					<cont>
-						<![CDATA[<TextBlock TextWrapping="Wrap">Die Datenbank ist gesperrt und kann nicht geöffnet werden. Bitte schließen Sie andere Anwendungen, die die Datenbank geöffnet haben und versuchen Sie es dann erneut.
-					<LineBreak/><LineBreak/>IMatch hat erkannt, dass <Bold>IMatch WebSerives™</Bold> auf diesem Computer ausgeführt werden. Möglicherweise wird die Datenbank gerade von IMatch WebServices verwendet.
-					<LineBreak/><LineBreak/>Ein anderer Grund für diesen Fehler sind nicht ausreichende Berechtigungen. Der IMatch-Anwender benötigt 'Lesen/Schreiben/Ändern'-Berechtigungen für das Datenbankverzeichnis. Drücken Sie F1 für mehr Informationen.</TextBlock>]]>
+						<![CDATA[<TextBlock TextWrapping="Wrap">Die Datenbank ist gesperrt und kann nicht geöffnet werden. Bitte schließen Sie andere Anwendungen, die die Datenbank geöffnet haben und versuchen Sie es dann erneut.<LineBreak/><LineBreak/>
+						IMatch hat erkannt, dass <Bold>IMatch WebSerives™</Bold> auf diesem Computer ausgeführt werden. Möglicherweise wird die Datenbank gerade von IMatch WebServices verwendet.<LineBreak/><LineBreak/>
+						Ein anderer Grund für diesen Fehler sind nicht ausreichende Berechtigungen. Der IMatch-Anwender benötigt 'Lesen/Schreiben/Ändern'-Berechtigungen für das Datenbankverzeichnis. Drücken Sie F1 für mehr Informationen.</TextBlock>]]>
 				</cont>
 					<inf></inf>
 				</m>
