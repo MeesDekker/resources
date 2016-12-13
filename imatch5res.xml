@@ -8525,7 +8525,7 @@
 				<c xml:lang="en" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Expand selected stacks">E&amp;xpand</c>
 				<c xml:lang="de" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Ausgewählte Stapel expandieren.">E&amp;xpandieren</c>
 				<c xml:lang="fi" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Laajenna valitut pinot">&amp;Laajenna</c>
-				<c xml:lang="nl" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Geselecteerde stapel uitbreiden">Uit&amp;breiden</c>
+				<c xml:lang="nl" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Geselecteerde stapel uitklappen">&amp;Uitklappen</c>
 				<c xml:lang="pt" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Expandir pilhas seleccionadas">E&amp;xpandir</c>
 				<c xml:lang="hr" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Proširi odabrane stogove">Pro&amp;širi</c>
 				<c xml:lang="no" hotkey="Shift+E;Ctrl+VK_RIGHT" helptext="Ekspander valgte stabler">&amp;Ekspander</c>
@@ -8535,7 +8535,7 @@
 				<c xml:lang="en" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Collapse (Close) selected stacks">Col&amp;lapse</c>
 				<c xml:lang="de" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Ausgewählte Stapel schließen.">Sch&amp;ließen</c>
 				<c xml:lang="fi" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Sulje valitut pinot">&amp;Sulje</c>
-				<c xml:lang="nl" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Geselecteerde stapel sluiten">S&amp;luiten</c>
+				<c xml:lang="nl" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Geselecteerde stapel inklappen">&amp;Inklappen</c>
 				<c xml:lang="pt" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Colapsar (Fechar) pilhas seleccionadas">Co&amp;lapsar</c>
 				<c xml:lang="hr" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Sažmi (zatvori) odabrane stogove">Saž&amp;mi</c>
 				<c xml:lang="no" hotkey="Shift+C;Ctrl+VK_LEFT" helptext="Skjul (lukk) utvalgte stabler">&amp;Skjul</c>
