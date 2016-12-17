@@ -8268,11 +8268,13 @@
 			<ctrl text="#l_find">
 				<c xml:lang="en" helptext="">&amp;Search:</c>
 				<c xml:lang="de" helptext="">&amp;Suchen:</c>
+				<c xml:lang="nl" helptext="">&amp;Zoeken:</c>
 			</ctrl>
 
 			<ctrl text="#l_next">
 				<c xml:lang="en" helptext="">&amp;Next</c>
 				<c xml:lang="de" helptext="">&amp;Weiter</c>
+				<c xml:lang="nl" helptext="">&amp;Volgende</c>
 			</ctrl>
 
 		</dialog>
@@ -8375,15 +8377,18 @@
 			<ctrl text="#l_advanced" style="bold">
 				<c xml:lang="en" helptext="">Advanced Options</c>
 				<c xml:lang="de" helptext="">Erweiterte Optionen</c>
+				<c xml:lang="nl" helptext="">Geavanceerde opties</c>
 			</ctrl>
 			
 			<ctrl text="#l_port_info">
 				<c xml:lang="en" helptext=""><![CDATA[If you use your database on <Bold>multiple computers</Bold>, you can configure additional options to automatically adapt the database to different computers (e.g. 'Auto Relocate') below.]]></c>
 				<c xml:lang="de" helptext=""><![CDATA[Wenn Sie Ihre Datenbank auf <Bold>verschiedenen Computern</Bold> verwenden, können sie hier Einstellungen vornehmen, die die Datenbank an verschiedene Computer anpassen (z.B. 'Automatisches Umziehen').]]></c>
+				<c xml:lang="nl" helptext=""><![CDATA[Als u uw database op <Bold>verschillende computers</Bold> gebruikt, kunt u hier instellingen opgeven om de database aan te passen aan verschillende comnputers (bv. 'automatisch verplaatsen').]]></c>
 			</ctrl>
 			<ctrl text="#l_btn_portable">
 				<c xml:lang="en" helptext="">&amp;Portability Options...</c>
 				<c xml:lang="de" helptext="">&amp;Portabilitätseinstellungen...</c>
+				<c xml:lang="nl" helptext="">&amp;Portabiliteitsinstellingen...</c>
 			</ctrl>
 
 
@@ -8416,55 +8421,68 @@
 		<dialog resid="PTRMDLG_APPPREFS_DATABASE_PORT" resgroup="appprefs.db">
 			<caption xml:lang="en">Database Portability Options</caption>
 			<caption xml:lang="de">Datenbank Portabilitätseinstellungen</caption>
+			<caption xml:lang="nl">Database Portabiliteitsinstellingen</caption>
 			<ctrl text="#l_computer">
 				<c xml:lang="en" helptext="">Portability options for this computer:</c>
 				<c xml:lang="de" helptext="">Portabilitätseinstellungen für diesen Computer:</c>
+				<c xml:lang="nl" helptext="">Portabiliteitsinstellingen voor deze computer:</c>
 			</ctrl>
 			<ctrl text="#l_btn_add">
 				<c xml:lang="en" helptext="">Add</c>
 				<c xml:lang="de" helptext="">Hinzufügen</c>
+				<c xml:lang="nl" helptext="">Toevoegen</c>
 			</ctrl>
 			<ctrl text="#l_btn_remove">
 				<c xml:lang="en" helptext="">&amp;Remove</c>
 				<c xml:lang="de" helptext="">Enfe&amp;rnen</c>
+				<c xml:lang="nl" helptext="">Ve&amp;rwijderen</c>
 			</ctrl>
 			<ctrl text="#l_auto_relocate">
 				<c xml:lang="en" helptext="">Automatically relocate these elements when opening the database on this computer:</c>
 				<c xml:lang="de" helptext="">Folgende Elemente automtisch umziehen, wenn die Datenbank auf diesem Computer geöffnet wird:</c>
+				<c xml:lang="nl" helptext="">De volgende elementen automatisch verplaatsen als de database op deze computer wordt geopend:</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_add">
 				<c xml:lang="en" helptext="Add a new auto-relocation rule">&amp;New...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">&amp;Neu...</c>
+				<c xml:lang="nl" helptext="Een nieuwe verplaatsingsregel toevoegen">&amp;Nieuw...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_edit">
 				<c xml:lang="en" helptext="Edit the selected auto-relocation rule">&amp;Edit...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">Bearb&amp;eiten...</c>
+				<c xml:lang="nl" helptext="De geselecteerde verplaatsingregel bewerken">B&amp;ewerken...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_del">
 				<c xml:lang="en" helptext="Delete the selected auto-relocation rule">De&amp;lete</c>
 				<c xml:lang="de" helptext="Die ausgewählte Auto-Umzugsregel löschen">&amp;Löschen</c>
+				<c xml:lang="nl" helptext="De geselecteerde verplaatsingeregel verwijderen">Verwijderen</c>
 			</ctrl>
 
 			<textdata>
 				<td tid="header_type">
 					<t xml:lang="en">Type</t>
 					<t xml:lang="de">Typ</t>
+					<t xml:lang="nl">Type</t>
 				</td>
 				<td tid="header_source">
 					<t xml:lang="en">Source</t>
 					<t xml:lang="de">Quelle</t>
+					<t xml:lang="nl">Bron</t>
 				</td>
 				<td tid="header_target">
 					<t xml:lang="en">Target</t>
 					<t xml:lang="de">Ziel</t>
+					<t xml:lang="nl">Doel</t>
 				</td>
 				<td tid="type_disk">
 					<t xml:lang="en">Disk</t>
 					<t xml:lang="de">Laufwerk</t>
+					<t xml:lang="nl">Schijf</t>
 				</td>
 				<td tid="type_folder" selected="true">
 					<t xml:lang="en">Folder</t>
 					<t xml:lang="de">Verzeichnis</t>
+					<t xml:lang="nl">Map</t>
 				</td>
 			</textdata>
 			
@@ -8474,27 +8492,33 @@
 		<dialog resid="PTRMDLG_APPPREFS_DATABASE_PORT_EDIT" resgroup="appprefs.db">
 			<caption xml:lang="en">Edit Relocation</caption>
 			<caption xml:lang="de">Umzug bearbeiten</caption>
+			<caption xml:lang="nl">Verplaatsingeregel bewerken</caption>
 			<ctrl text="#l_type">
 				<c xml:lang="en" helptext="">&amp;Type:</c>
 				<c xml:lang="de" helptext="">&amp;Typ:</c>
+				<c xml:lang="nl" helptext="">&amp;Type:</c>
 			</ctrl>
 			<ctrl text="#l_source">
 				<c xml:lang="en" helptext="">&amp;Source:</c>
 				<c xml:lang="de" helptext="">&amp;Quelle:</c>
+				<c xml:lang="nl" helptext="">&amp;Bron:</c>
 			</ctrl>
 			<ctrl text="#l_target">
 				<c xml:lang="en" helptext="">&amp;Target:</c>
 				<c xml:lang="de" helptext="">&amp;Ziel:</c>
+				<c xml:lang="nl" helptext="">&amp;Doel:</c>
 			</ctrl>
 
 			<textdata>
 				<td tid="ph_source">
 					<t xml:lang="en">Source folder or drive letter</t>
 					<t xml:lang="de">Quellverzeichnis oder Datenträgerbezeichnung</t>
+					<t xml:lang="nl">Bronmap of schijfletter</t>
 				</td>
 				<td tid="ph_target">
 					<t xml:lang="en">Target folder or drive letter</t>
 					<t xml:lang="de">Zielverzeichnis oder Datenträgerbezeichnung</t>
+					<t xml:lang="nl">Doelmap of schijfletter</t>
 				</td>
 			</textdata>
 			
@@ -8502,10 +8526,12 @@
 				<ld listid="1" selected="true">
 					<l xml:lang="en">Folder</l>
 					<l xml:lang="de">Verzeichnis</l>
+					<l xml:lang="nl">Map</l>
 				</ld>
 				<ld listid="2" selected="true">
 					<l xml:lang="en">Disk</l>
 					<l xml:lang="de">Datenträger</l>
+					<l xml:lang="nl">Schijf</l>
 				</ld>
 			</listdata>
 		
@@ -13393,10 +13419,12 @@
 			<ctrl text="#l_check_color">
 				<c xml:lang="en" helptext="">Color: </c>
 				<c xml:lang="de" helptext="">Farbe: </c>
+				<c xml:lang="nl" helptext="">Kleur: </c>
 			</ctrl>
 			<ctrl text="#l_color">
 				<c xml:lang="en" helptext="">Color</c>
 				<c xml:lang="de" helptext="">Farbe</c>
+				<c xml:lang="nl" helptext="">Kleur</c>
 			</ctrl>
 
 
@@ -23014,18 +23042,22 @@
 		<dialog resid="PTRMDLG_FACE_DETECT" >
 			<caption xml:lang="en">Create Face Annotations</caption>
 			<caption xml:lang="de">Gesichtsanmerkungen erstellen</caption>
+			<caption xml:lang="nl">Gezichtsannotaties creëeren</caption>
 
 			<ctrl text="#l_check_ignore">
 				<c xml:lang="en" helptext="">&amp;Ignore images which already have face annotations</c>
 				<c xml:lang="de" helptext="">Bilder mit Gesichtsanmerkungen &amp;ignorieren</c>
+				<c xml:lang="nl" helptext="">Afbeeldingen die reeds gez&amp;ichtsannotaties hebben, negeren</c>
 			</ctrl>
 			<ctrl text="#l_check_delete">
 				<c xml:lang="en" helptext="">Dele&amp;te existing face annotations</c>
 				<c xml:lang="de" helptext="">Bestehende Gesichtsanmerkungen &amp;löschen</c>
+				<c xml:lang="nl" helptext="">Bestaande gezichtannotaties verwij&amp;deren</c>
 			</ctrl>
 			<ctrl text="#l_info">
 				<c xml:lang="en" helptext="">If all images show the same person, you can optionally assign a tag to all new annotations:</c>
 				<c xml:lang="de" helptext="">Wenn alle Bilder die gleiche Person zeigen, können Sie optional allen neuen Anmerkungen ein Tag zuweisen:</c>
+				<c xml:lang="nl" helptext="">Als alle afbeeldingen dezelfde persoon tonen, kunt u optioneel een tag aan alle nieuwe annotaties toekennen:</c>
 			</ctrl>
 
 

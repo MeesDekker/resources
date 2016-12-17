@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- $Revision: 449 $ $Date: 2013-05-12 22:24:47 +0200 (So, 12 Mai 2013) $ - $Author: predrag $ -->
-
 <!-- This resource file contains all message resources for IMatch -->
 
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
@@ -1305,6 +1303,10 @@
 				<m xml:lang="de">
 					<cap>Fehler bei der Anwendung von Portabilitätsoptionen</cap>
 					<cont>Während der Anwendung von Datenbank-Portabilitätsoptionen ist ein Fehler aufgetreten.\r\n\r\nÜberprüfen Sie die IMatch-Protokolldatei (Suchbegriff: DB-PORTA) und Ihre Portabilitätsoptionen unter Bearbeiten &gt; Einstellungen &gt; Datenbank.\r\n\r\n{errors}</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Fout bij het toepassen van portabiliteitsinstellingen</cap>
+					<cont>Tijdens het toepassen van de portabiliteisinstellingen, is een fout opgetreden.\r\n\r\nControleer het IMatch logbestand (zoek naar: DB-PORTA) en controleer uw portabiliteitsinstellingen onder Bewerken &gt; Voorkeuren &gt; Database.\r\n\r\n{errors}</cont>
 				</m>
 			</msg>
 
@@ -2666,6 +2668,12 @@
 				</cont>
 					<inf></inf>
 				</m>
+				<m xml:lang="nl">
+					<cap>Database is geblokkeerd of niet beschrijfbaar.</cap>
+					<cont>
+						<![CDATA[<TextBlock TextWrapping="Wrap" >De database is geblokkeerd en kan niet worden geopend. Sluit andere programma's af die mogelijk de database gebruiken en probeer opnieuw .<LineBreak/><LineBreak/>IMatch heeft vastgesteld dat <Bold>IMatch WebServices™</Bold> op deze computer in gebruik is. Waarschijnlijk wordt de database op dit moment gebruikt door IMatch WebSerives.<LineBreak/><LineBreak/>Een andere oorzaak voor deze fout kan zijn dat de gebruiker te weinig rechten heeft. De IMatch gebruiker moest het recht hebben tot 'lezen/schrijven/wijzigen' voor de map waarin de database staat. Druk F1 voor meer informatie.</TextBlock>]]>
+					</cont>
+				</m>
 			</msg>
 
 
@@ -3085,6 +3093,10 @@
 					<cap>Stapel ausgewählt</cap>
 					<cont>Wenn Sie eine Masterdatei oder eine Stapelspitze löschen, löscht dies nicht automatisch alle Dateien im Stapel.\r\n\r\nUm alle Dateien im Stapel zu löschen, klappen Sie den Stapel auf und wählen Sie anschließend alle zu löschenden Dateien aus.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Stapel geselecteerd</cap>
+					<cont>Als u een masterbstend of de top van een stapel verwijdert, worden de overieg bestanden in de stapel niet automtisch verwijderd.\r\n\r\nOm alle bestanden in een stapel te verwijderen, moet u de stapel uitklappen en alle bestanden selecteren die u wilt verwijderen.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_DETECT_RESULTS" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3095,6 +3107,10 @@
 				<m xml:lang="de">
 					<cap>Gesichtsanmerkungen erstellt</cap>
 					<cont>{0} Datei(en) verarbeitet and {1} Dateien(s) aktualisiert.\r\n{2} Gesichtsanmerkungen erstellt.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotaties zijn aangemaakt</cap>
+					<cont>{0} bestand(-en) verwerkt en {1} bestand(-en) geactualiseerd.\r\n{2} Gezichtsannotaties aangemaakt.</cont>
 				</m>
 			</msg>
 
@@ -3107,6 +3123,10 @@
 					<cap>Gesichtsanmerkungen löschen</cap>
 					<cont>Das Entfernen von Gesichtsanmerkungen ist eine Datenschutzfunktion.\r\nMöchten Sie wirklich die Gesichtsanmerkungen aus allen ausgewählten Bildern löschen?</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotaties verwijderen</cap>
+					<cont>Het verwijderen van gezichtannotaties is privacy onderwerp.\r\nWilt u de gezichtsannotaties van alle geselecteerde bestanden werkelijk verwijderen?</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_WRITE_XMP" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3118,6 +3138,10 @@
 					<cap>Gesichtsanmerkungen in XMP-Datensatz schreiben</cap>
 					<cont>Dieser Befehl schreibt IMatch Gesichtsanmerkungen in den XMP-Datensatz der ausgewählten Bilder.\r\n\r\nDies kann nützlich sein, wenn die Gesichtsdaten von anderen Anwendungen entfernt wurden, oder wenn Sie fehlerhafte Gesichtsanmerkungen in den XMP-Daten korrigieren möchten.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotaties in de XMP-gegevens schrijven</cap>
+					<cont>Door deze opdracht schrijft IMatch de gezichtsannotaties in de XMP gegevens van de geselecteerde bestanden.\r\n\r\nDat kan nuttig zijn, als de gezichtsannotaties door een ander programma verwijderd werden, of als u foutieve gezichtsannotaties in de XMP-gegevens wilt corrigeren.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_READ_XMP" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3128,6 +3152,10 @@
 				<m xml:lang="de">
 					<cap>Gesichtsanmerkungen aus dem XMP-Datensatz erstellen</cap>
 					<cont>Dieser Befehl löscht alle Gesichtsanmerkungen und erstellt sie anschließend neu aus dem XMP-Datensatz.\r\n\r\nNutzen Sie diesen Befehl, wenn Sie manuell IMatch-Gesichtsanmerkungen aus XMP-Daten erstellen möchten, wenn der automatische Import (Bearbeiten &gt; Einstellungen &gt; Metadaten 2) abgeschaltet ist. Oder wenn Sie IMatch-Gesichtsanrmekungen von Hand aktualiseren oder reparieren möchten.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotaties lezen uit de XMP-gegevens</cap>
+					<cont>Deze opdracht verwijdert alle IMatch gezichtsannotaties en herstelt ze vanuit de XMP-gegevens.\r\n\r\nU kunt deze opdracht gebruiken om handmatig gezichtsannotaties te creëeren als u de automatische import heeft uitgeschakeld (Bewerken &gt; Voorkeuren &gt; Metadata 2) of als u de IMatch gezichtsannotaties moet actualiseren of repareren.</cont>
 				</m>
 			</msg>
 
@@ -3362,6 +3390,10 @@
 				<m xml:lang="de">
 					<cap>Warnung</cap>
 					<cont>Sie sollten diese Funktion nur verwenden, wenn Sie sehr alte Software benutzen, die nicht mit dem EXIF-Ausrichtungsfeld umgehen kann.\r\n\r\nDas Anwenden dieser Funktion aktualisiert nur die Pixeldaten in der Datei, führt aber keine Anpassungen an EXIF- und XMP-Metadaten durch. Dies kann zu Problemen führen, wenn Sie mit IMatch-Anmerkungen oder XMP Gesichtsmerkmalen arbeiten. Verwenden Sie statt dessen die EXIF-Ausrichtungsbefehle.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Waarschuwing</cap>
+					<cont>U moet deze opdracht alleen gebruiken als u met heel oude software werkt, die niet kan omgaan met het standaard EXIF-oriëntatieveld.\r\n\r\nDeze opdracht wijzigt alleen de pixelgegevens, maar niet de EXIF of XMP gegevens. Dat kan tot problemen leiden als u met IMatch gezichtsannotaties of XMP gezichtsvelden werkt. Het wordt aanbevolen om in plaats hiervan de XMP-oriëntatiefunctionaliteit te werken.</cont>
 				</m>
 			</msg>
 
@@ -7892,6 +7924,10 @@
 					<cap>Visual Proxies aktiviert</cap>
 					<cont>Bitte deaktivieren Sie Visual Proxies, wenn Sie mit Anmerkungen arbeiten möchten: (&lt;T&gt;+&lt;X&gt;).</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Proxy afbeeldingen</cap>
+					<cont>Schakel proxy-afbeeldingen uit, als u met annotaties wilt werken: (&lt;T&gt;+&lt;X&gt;).</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_VIEWER_PASTE_LAYER" typeid="[[IDI_INFORMATION]]" desc="">
@@ -7906,6 +7942,12 @@
 					<cont>Die Zielebene ist nicht die gleiche wie die Quellebene. Was möchten Sie tun?</cont>
 					<button btnid="1001">Die Anmerkugnen(en) auf der aktiven Ebene einfügen ('{0}')</button>
 					<button btnid="1002">Die Anmerkungen auf der Ebene mit dem gleichen Namen wie die Quellebene einfügen ('{1}')</button>
+				</m>
+				<m xml:lang="nl">
+					<cap>Andere laag</cap>
+					<cont>De doel laag verschilt van de bronlaag. Wat wilt u doen?</cont>
+					<button btnid="1001">Voeg de annotatie(s) toe aan de actieve laag ('{0}')</button>
+					<button btnid="1002">Voeg de annotatie(s) toe aan de laag met dezelfde naam als de bronlaag ('{1}')</button>
 				</m>
 			</msg>
 

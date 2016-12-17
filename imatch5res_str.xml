@@ -2242,6 +2242,7 @@
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_PORTABILITY" desc="">
 				<s xml:lang="en">Running portability options and auto-relocate...</s>
 				<s xml:lang="de">Portabilitätsoptionen werden angewendet und 'Automatisches Umziehen' wird durchgeführt...</s>
+				<s xml:lang="nl">Portabiliteitsopties en 'automatisch verplaatsen' worden uitgevoerd...</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_FINALSTEPS" desc="">
@@ -3086,6 +3087,7 @@
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCOMPACT_TIMER" desc="">
 				<s xml:lang="en">Running for {0}.</s>
 				<s xml:lang="en">Läuft seit {0}.</s>
+				<s xml:lang="nl">Loopt sinds {0}.</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCLOSE_HEADLINE" desc="">
@@ -4035,6 +4037,7 @@
 			<str resid="PTR_GEOPANEL_TIMEOUT_MSG" desc="">
 				<s xml:lang="en"><![CDATA[The geo service seems to fail to respond or to respond very slowly. Maybe reloading the map panel or switching to another map provider helps.]]></s>
 				<s xml:lang="de"><![CDATA[Der Kartendienst scheint nicht mehr zu antworten oder antwortet nur sehr langsam. Versuchen Sie, die Karte neu zu laden oder wechseln Sie zu einem anderen Kartendienst.]]></s>
+				<s xml:lang="nl"><![CDATA[De kaart reageert niet of heel langzaam. Probeer de kaart opnieuw te laden of wissel van kaartaanbieder.]]></s>
 			</str>
 
 
@@ -5426,7 +5429,7 @@
 				<s xml:lang="pt">Modificar Objecto</s>
 				<s xml:lang="fi">Muokkaa objektia</s>
 				<s xml:lang="hr">Izmijeni objekt</s>
-	        <s xml:lang="no">Endre objektet</s>
+				<s xml:lang="no">Endre objektet</s>
 				<s xml:lang="fr">Modifier l'objet</s>
                 <s xml:lang="it">Modifica Oggetto</s>
             </str>
@@ -5434,34 +5437,42 @@
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DETECT_FACES" desc="">
 				<s xml:lang="en">Face Detection</s>
 				<s xml:lang="de">Gesichtserkennung</s>
+				<s xml:lang="nl">Gezichtsherkenning</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DETECT_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Creating Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden erstellt...</s>
+				<s xml:lang="nl">Gezichtsannotaties worden aangemaakt...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES" desc="">
 				<s xml:lang="en">Remove Face Annotations</s>
 				<s xml:lang="de">Gesichtsanmerkungen löschen</s>
+				<s xml:lang="nl">Gezichtannotaties verwijderen</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Deleting Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden gelöscht...</s>
+				<s xml:lang="nl">Gezichtannotaties worden verwijderd...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP" desc="">
 				<s xml:lang="en">Write Face Annotations to XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen im XMP-Datensatz speichern</s>
+				<s xml:lang="nl">Gezichtsannotaties in XMP opslaan</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Writing Face Annotations to XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden im XMP-Datensatz gespeichert...</s>
+				<s xml:lang="nl">Gezichtannotaties worden XMP opgeslagen...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP" desc="">
 				<s xml:lang="en">Read Face Annotations from XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen aus XMP-Datensatz erstellen</s>
+				<s xml:lang="nl">Gezichtsannotaties uit XMP lezen</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Reading Face Annotations from XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden aus dem XMP-Datensatz erstellt...</s>
+				<s xml:lang="nl">Gezichtsannotaties worden uit XMP gelezen...</s>
 			</str>
 
 			<!-- Rename Tasks -->
@@ -5473,7 +5484,7 @@
 				<s xml:lang="pt">Mudar Nome de Ficheiros</s>
 				<s xml:lang="fi">Nimeä tiedostot uudelleen</s>
 				<s xml:lang="hr">Preimenuj datoteke</s>
-        	<s xml:lang="no">Gi nytt navn til filer</s>
+				<s xml:lang="no">Gi nytt navn til filer</s>
 				<s xml:lang="fr">Renommer les fichiers</s>
                 <s xml:lang="it">Rinomina File</s>
             </str>
@@ -7188,26 +7199,32 @@
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_PREV">
 				<s xml:lang="en">Previous file</s>
 				<s xml:lang="de">Vorhergehende Datei</s>
+				<s xml:lang="nl">Vorig bestand</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXT">
 				<s xml:lang="en">Next file</s>
 				<s xml:lang="de">Nächste Datei</s>
+				<s xml:lang="nl">Volgend bestand</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_PREVSTACK">
 				<s xml:lang="en">Previous file in stack (&lt;Shift&gt;+&lt;Arrow left&gt;)</s>
 				<s xml:lang="de">Vorhergehende Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil links&gt;)</s>
+				<s xml:lang="nl">Vorig bestand in de stapel (&lt;Shift&gt;+&lt;pijl links&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXTSTACK">
 				<s xml:lang="en">Next file in stack (&lt;Shift&gt;+&lt;Arrow right&gt;)</s>
 				<s xml:lang="de">Nächste Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil rechts&gt;)</s>
+				<s xml:lang="nl">Volgend bestand in de stapel (&lt;Shift&gt;+&lt;pijl rechts&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_MENU">
 				<s xml:lang="en">Click to show menu...</s>
 				<s xml:lang="de">Klicken um das Menü anzuzeigen...</s>
+				<s xml:lang="nl">Klik om het menu te tonen...</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_STACKHOME">
 				<s xml:lang="en">Go back to stack top (&lt;Home&gt;)</s>
 				<s xml:lang="de">Zur Stapelspitze zurückkehren (&lt;Pos 1&gt;)</s>
+				<s xml:lang="nl">Ga terug naar de top van de stapel (&lt;Home&gt;)</s>
 			</str>
 
 			<!-- Settings -->
